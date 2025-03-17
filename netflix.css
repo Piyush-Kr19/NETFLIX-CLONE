@@ -5,7 +5,8 @@
 }
 
 .mainNetflixContainer{
-    border: 2px solid red
+    border: 2px solid red;
+    padding: 1rem 2rem;
 }
 
 .navContainer{

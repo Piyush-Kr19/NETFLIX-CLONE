@@ -67,6 +67,18 @@
 }
 
 .lowerNavBarSection{
-    /* border: 2px solid black; */
+    border: 2px solid red;
     height: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.menulist{
+    border: 2px solid green;
+    width: 30%;
+    list-style: none; /*removing the bullets */
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
 }

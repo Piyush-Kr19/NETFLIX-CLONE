@@ -6,7 +6,7 @@
 
 .mainNetflixContainer{
     border: 2px solid red;
-    padding: 1rem 2rem;
+    padding: 0-rem 2rem;
 }
 
 .navContainer{
@@ -14,20 +14,23 @@
     height: 25vh;
 } 
 
-
 .upperNavBarSection{
     border: 2px solid blue;
     display: flex;
     height: 50%;
 }
 
-.upperNavRight{
-    border: 2px solid red;
+.upperNavLeft{
+    border: 2px solid green;
     width: 50%;
 }
 
-.upperNavLeft{
-    border: 2px solid green;
+.netflixLogo{
+    width: 25%;
+}
+
+.upperNavRight{
+    border: 2px solid red;
     width: 50%;
 }
 

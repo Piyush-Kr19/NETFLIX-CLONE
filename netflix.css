@@ -7,7 +7,8 @@
 .mainNetflixContainer{
     border: 2px solid red;
     padding: 0rem 2rem;
-    background-color: black; 
+    background-image: url("./banner.jpg");
+    filter: blur(.8px);
 }
 
 .navContainer{
@@ -76,9 +77,24 @@
 
 .menulist{
     border: 2px solid green;
-    width: 30%;
+    width: 35%;
     list-style: none; /*removing the bullets */
     display: flex;
     justify-content: space-evenly;
+    border-radius: 50px;
+}
+
+.bannerSection{
+    border: 2px solid red;
+    height: 90vh;
+    background-image: url("./banner.jpg");
+    background-size: 100% 100%;
     border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(transparent,rgba(0,0,0,.6),black);
 }

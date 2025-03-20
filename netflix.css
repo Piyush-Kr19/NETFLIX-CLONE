@@ -146,3 +146,20 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.bannerContainer h2{
+    /* border: 2px solid green; */
+    font-size: 4rem;
+    width: 50%;
+    text-align: center;
+}
+
+.bannerContainer h4{
+    font-size: 1.4rem;
+    margin: 20px;
+}
+
+.bannerContainer p{
+    font-size: 1rem;
+    margin: 20px;
+}

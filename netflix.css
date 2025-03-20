@@ -22,7 +22,7 @@ body{
 }
 
 .pinkOverlay{
-    background-color: rgba(255, 0, 0, 0.212);
+    background-color: rgba(255, 0, 0, 0.162);
     height: 100%;
     width: 100%;
 }
@@ -98,12 +98,14 @@ body{
 }
 
 .menulist{
-    border: 2px solid green;
-    width: 35%;
+    /* border: 2px solid green; */
+    width: 40%;
     list-style: none; /*removing the bullets */
     display: flex;
     justify-content: space-evenly;
     border-radius: 50px;
+    background-color: #000000be;
+    box-shadow: 2px,3px,16px,rgba(0, 0, 0, 0.329);
 }
 
 .bannerSection{

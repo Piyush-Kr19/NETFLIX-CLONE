@@ -201,23 +201,26 @@ body{
 }
 
 .CarosuelSection,
-.PlanSection{
+.PlanSection,
+.ReasonToJoinSection{
     /* border: 2px solid red; */
     color: white;
 }
 
 .CarosuelSection h2,
-.PlanSection h2{
+.PlanSection h2,
+.ReasonToJoinSection h2{
     /* border: 2px solid red; */
     margin-left: 5rem;
     font-size: 2.5rem;
 }
 
 .carouselCardContainer,
-.plansContainer{
+.plansContainer,
+.reasonsContainer{
     /* border: 2px solid green; */
     height: 100%;
-    width: 80%;
+    width: 87%;
     display: flex;
     justify-content: space-evenly;
     margin: 2rem auto;    /* align-items: center; */
@@ -253,7 +256,8 @@ body{
     border-radius: 20px;
 }
 
-.planCard{
+.planCard,
+.reasonCard{
     /* border: 2px solid green; */
     width: 23%;
     height: 38vh;
@@ -262,6 +266,7 @@ body{
     justify-content: space-between;
     padding: 2rem 1rem 1rem;
     border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.405) ;
     
 }
 
@@ -300,4 +305,30 @@ body{
 
 .planCard p{
     font-size: 1.3rem;
+}
+
+.reasonCard{
+    background-color: rgb(63, 61, 61);
+    border: none;
+    height: 35vh;
+}
+
+.reasonCard h2{
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-bottom: 10px ;
+}
+
+.reasonCard p{
+    font-size: 0.9rem;
+}
+
+.reasonContentLowerContent{
+    display: flex;
+    justify-content: end;
+}
+
+.reasonContentLowerContent svg{
+    height: 50%;
+    width: 50%;
 }

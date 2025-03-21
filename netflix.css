@@ -76,6 +76,7 @@ body{
     border: 1px solid;
     outline: none;
     color: white;
+    font-size: 1rem;
 }
 
 .signinButton{
@@ -85,6 +86,7 @@ body{
     outline: none;
     border: none;
     margin-left: 10px;
+    font-size: 1rem;
 }
 
 .languageButton p{
@@ -195,6 +197,5 @@ body{
     background-color: red;
     border: none;
     outline: none;
-    color: #fff;
-    
+    color: #fff; 
 }

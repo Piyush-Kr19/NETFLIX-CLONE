@@ -200,18 +200,21 @@ body{
     color: #fff; 
 }
 
-.CarosuelSection{
+.CarosuelSection,
+.PlanSection{
     /* border: 2px solid red; */
     color: white;
 }
 
-.CarosuelSection h2{
+.CarosuelSection h2,
+.PlanSection h2{
     /* border: 2px solid red; */
     margin-left: 5rem;
     font-size: 2.5rem;
 }
 
-.carouselCardContainer{
+.carouselCardContainer,
+.plansContainer{
     /* border: 2px solid green; */
     height: 100%;
     width: 80%;
@@ -222,7 +225,7 @@ body{
 
 .carouselNumberContainer{
     position: absolute;
-    left: -20px;
+    left: -25px;
 }
 
 .carouselcard{
@@ -250,3 +253,51 @@ body{
     border-radius: 20px;
 }
 
+.planCard{
+    /* border: 2px solid green; */
+    width: 23%;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 1rem 1rem;
+    border-radius: 20px;
+    
+}
+
+.planCard1{
+    background: linear-gradient(149deg, #1C4072 6.96%, #172B47 40.17%,
+    #120c1f 73.39%);
+
+}
+
+.planCard2{
+    background: linear-gradient(149deg, #1D529D 6.96%, #233371 40.17%,
+    #120c1f 73.39%);
+
+}
+
+.planCard3{
+    background: linear-gradient(149deg, #792A95 6.96%, #38216C 40.17%,
+    #120c1f 73.39%);
+
+}
+
+.planCard4{
+    background: linear-gradient(149deg, #922556 6.96%, #391945 40.17%,
+    #120c1f 73.39%);
+
+}
+
+.planCard h2{
+    margin-left: 0;
+    font-size: 1.5rem;
+}
+
+.planCard h4{
+    font-size: 1.3rem;
+}
+
+.planCard p{
+    font-size: 1.3rem;
+}

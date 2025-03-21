@@ -208,7 +208,7 @@ body{
 .CarosuelSection h2{
     /* border: 2px solid red; */
     margin-left: 5rem;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 .carouselCardContainer{
@@ -220,13 +220,25 @@ body{
     margin: 2rem auto;    /* align-items: center; */
 }
 
+.carouselNumberContainer{
+    position: absolute;
+    left: -25px;
+}
+
 .carouselcard{
     width: 15%;
     /* border: 2px solid yellow; */
     height: 50vh;
     border-radius: 20px;
+    position: relative;
 }
 
+.carouselNumberContainer span{
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-text-stroke: 0.125rem rgba(255,255,255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    font-size: 5rem;
+}
 .carouselImageContainer{
     width: 100%;
     height: 100%;
@@ -237,3 +249,4 @@ body{
     height: 100%;
     border-radius: 20px;
 }
+

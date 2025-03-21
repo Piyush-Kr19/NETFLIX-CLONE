@@ -222,13 +222,13 @@ body{
 
 .carouselNumberContainer{
     position: absolute;
-    left: -25px;
+    left: -20px;
 }
 
 .carouselcard{
-    width: 15%;
+    width: 12%;
     /* border: 2px solid yellow; */
-    height: 50vh;
+    height: 40vh;
     border-radius: 20px;
     position: relative;
 }
@@ -237,7 +237,7 @@ body{
     color: rgba(0, 0, 0, 0.8);
     -webkit-text-stroke: 0.125rem rgba(255,255,255);
     text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .carouselImageContainer{
     width: 100%;

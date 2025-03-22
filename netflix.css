@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+* a{
+    color: white;
+    text-decoration: none;
+    
 }
 
 body{
@@ -38,6 +45,8 @@ body{
 .navContainer{
     /* border: 2px solid green; */
     height: 25vh;
+    position: fixed;
+    z-index: 1000;
 } 
 
 .upperNavBarSection{
@@ -108,9 +117,11 @@ body{
     display: flex;
     justify-content: space-evenly;
     border-radius: 50px;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.7);
     box-shadow: 2px,3px,14px,rgba(0, 0, 0, 0.5);
-    height: 7vh;
+    backdrop-filter: blur(7px);
+    height: 6vh;
+    
 }
 
 .menulist li{
@@ -119,6 +130,10 @@ body{
     display: flex;
     align-items: center;
 
+}
+
+.sectionsContainer{
+    margin-top: 20vh;
 }
 
 .bannerSection{
@@ -373,4 +388,21 @@ body{
 .faqCard:hover .faqAnaswer {
     display: block;
     cursor: pointer;
+}
+
+.faqCardsContainer{
+    flex-direction: column;
+}
+
+.GetStartedSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.GetStartedSection p{
+    margin-bottom: 1rem;
+    color: #fff;
 }

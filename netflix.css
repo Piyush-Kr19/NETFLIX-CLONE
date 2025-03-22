@@ -202,14 +202,16 @@ body{
 
 .CarosuelSection,
 .PlanSection,
-.ReasonToJoinSection{
+.ReasonToJoinSection,
+.faqSection{
     /* border: 2px solid red; */
     color: white;
 }
 
 .CarosuelSection h2,
 .PlanSection h2,
-.ReasonToJoinSection h2{
+.ReasonToJoinSection h2,
+.faqSection h2{
     /* border: 2px solid red; */
     margin-left: 5rem;
     font-size: 2.5rem;
@@ -217,7 +219,8 @@ body{
 
 .carouselCardContainer,
 .plansContainer,
-.reasonsContainer{
+.reasonsContainer,
+.faqCardsContainer{
     /* border: 2px solid green; */
     height: 100%;
     width: 87%;
@@ -331,4 +334,43 @@ body{
 .reasonContentLowerContent svg{
     height: 50%;
     width: 50%;
+}
+
+.faqCard{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.faqQuestion,
+.faqAnaswer{
+    padding: 2rem;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #2e2e2e;
+}
+
+.faqQuestion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqQuestion span{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+.faqAnaswer {
+    display: none;
+
+}
+
+.faqCard:hover{
+    cursor: pointer;
+}
+
+.faqCard:hover .faqAnaswer {
+    display: block;
+    cursor: pointer;
 }

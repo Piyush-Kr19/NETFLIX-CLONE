@@ -19,7 +19,7 @@ A responsive static replica of the Netflix landing page, built using **HTML**, *
 - **Assets:** PNG/JPG banners and logo file
 ---
 
-## 🚀 How to Run Locally
+## 🖥️ How to Run Locally
 
 1. Clone the Repository
 

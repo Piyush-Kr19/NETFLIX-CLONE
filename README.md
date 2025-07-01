@@ -25,10 +25,15 @@ A responsive static replica of the Netflix landing page, built using **HTML**, *
 
 ```bash
 git clone https://github.com/Piyush-Kr19/NETFLIX-CLONE.git
+```
+
+2. Navigate to the project folder:
+
+```bash
 cd NETFLIX-CLONE
 ```
 
-2. Open netflix.html in any web browser:
+3. Open netflix.html in any web browser:
 
 ```bash
 start netflix.html  # For Windows

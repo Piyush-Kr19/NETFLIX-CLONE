@@ -2,26 +2,50 @@
 
 A responsive static replica of the Netflix landing page, built using **HTML**, **CSS**, and custom animations. Perfect for showcasing front‑end skills and design attention.
 
+---
+
 ## 🚀 Features
 
-- ✅ Responsive layout mimicking Netflix homepage  
-- 💅 Smooth hover transitions on movie thumbnails  
-- 🧩 Modular CSS (organized styles for reuse)  
-- 🎨 Custom typography, icon usage, and color theming
+-  Responsive layout mimicking Netflix homepage  
+-  Smooth hover transitions on movie thumbnails  
+-  Modular CSS (organized styles for reuse)  
+-  Custom typography, icon usage, and color theming
+---
 
 ## 🛠️ Tech Stacks
 
 - **Markup:** HTML5 semantic structure  
 - **Styling:** CSS3 (Flexbox & Grid)  
 - **Assets:** PNG/JPG banners and logo file
+---
 
-## 📁 Project Structure
+## 🚀 How to Run Locally
 
-NETFLIX-CLONE/
-├── netflix.html           # Main HTML file
-├── netflix.css            # CSS styles
-├── netflixLogo.png        # Logo image
-├── banner.jpg             # Hero banner
-├── 1.png to 10.png        # Movie thumbnails
-└── README.md              # Project documentation
+1. Clone the Repository
 
+```bash
+git clone https://github.com/Piyush-Kr19/NETFLIX-CLONE.git
+cd NETFLIX-CLONE
+```
+
+2. Open netflix.html in any web browser:
+
+```bash
+start netflix.html  # For Windows
+# OR
+open netflix.html   # For macOS
+```
+---
+
+## 🧠 Lessons Learned
+
+- Mastered layout building with Flexbox and positioning
+- Improved skills in responsive design and UI duplication
+- Practiced building a real-world inspired landing page from scratch
+---
+
+## 🙌 Acknowledgements
+
+- Netflix for the UI inspiration
+- W3Schools and MDN for HTML/CSS references
+- YouTube tutorials and online inspiration for layout ideas

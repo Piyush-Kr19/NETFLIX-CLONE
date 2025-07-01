@@ -14,3 +14,14 @@ A responsive static replica of the Netflix landing page, built using **HTML**, *
 - **Markup:** HTML5 semantic structure  
 - **Styling:** CSS3 (Flexbox & Grid)  
 - **Assets:** PNG/JPG banners and logo file
+
+## 📁 Project Structure
+
+NETFLIX-CLONE/
+├── netflix.html           # Main HTML file
+├── netflix.css            # CSS styles
+├── netflixLogo.png        # Logo image
+├── banner.jpg             # Hero banner
+├── 1.png to 10.png        # Movie thumbnails
+└── README.md              # Project documentation
+

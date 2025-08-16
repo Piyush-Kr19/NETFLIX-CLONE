@@ -32,14 +32,6 @@ git clone https://github.com/Piyush-Kr19/NETFLIX-CLONE.git
 ```bash
 cd NETFLIX-CLONE
 ```
-
-3. Open netflix.html in any web browser:
-
-```bash
-start netflix.html  # For Windows
-# OR
-open netflix.html   # For macOS
-```
 ---
 
 ## 🧠 Lessons Learned

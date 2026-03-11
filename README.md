@@ -1,3 +1,8 @@
+## Preview
+
+![Netflix Clone](netflix-preview.png)
+
+
 # Netflix Clone
 
 A responsive static replica of the Netflix landing page, built using **HTML**, **CSS**, and custom animations. Perfect for showcasing front‑end skills and design attention.
